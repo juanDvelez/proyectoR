@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaia Latam</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+        <h1>Gaia Latam</h1>
+        <form action="/buscar" method="get" class="buscar">
+            <label for="busqueda">Ingresa tu búsqueda:</label>
+            <input type="text" id="busqueda" name="q" placeholder="Escribe aquí..." required>
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+    <nav>
+        <static>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="inicio">Inicio</a></li>
+                <li class="main-nav__item"><a href="videos">videos</a></li>
+                <li class="main-nav__item"><a href="blog">blogs</a></li>
+                <li class="main-nav__item"><a href="tiendaVirtual">Tienda Virtual</a></li>
+                <li class="main-nav__item"><a href="historias">Historias de Terror</a></li>
+                <li class="main-nav__item"><a href="contactenos">contactenos</a></li>
+            </ul>
+        </static>
+    </nav>
+
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+    </section>
+
+    <main>
+        <section>
+            <h2>La Magia de los Hongos</h2>
+            <p>Conoce todos los beneficios de los hongos en nuestras vidas y el planeta. </p>
+            <figure>
+                <p><img src="/imagenes/mushrooms-5672656_1280.jpg" width="300px" height="300px" alt="Hongos magicos">
+                </p>
+            </figure>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        <section class="ufo">
+            <h2>Ufología </h2>
+            <p>Conoce mas de historias y fenomenos ovni.
+            </p>
+            <figure>
+                <p><img src="/imagenes/ufo-3014638_1280.jpg" width="300px" height="300px" alt="salud"></p>
+            </figure>
+            <figure>
+                <br>
+                <br>
+                <h2>Descripción de El Extraño caso del OVNI de Salta</h2>
+                <br>
+                <br>
+                <p>Escucha nuestro podcast</p>
+                <br>
+                <audio controls autoplay muted>
+
+                    <source src="/audio/extranocasodelovnisalta-ruedadelmisterio-ivoox113632921.mp3" type="audio/mpeg">
+                </audio>
+            </figure>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2>Antiguas Civilizaciones</h2>
+            <p>En busque de aquellas civilizaciones perdidas en el tiempo</p>
+            <figure>
+                <p><img src="/imagenes/egypt-1344335_1280.jpg" width="300px" height="300px" alt="salud"></p>
+            </figure>
+        </section>
+        <br>
+        <br>
+        <br>
+        <div style="text-align:center">
+            <h1 style="color: aliceblue;">10 misterios sin resolver sobre la vida de Nikola Tesla</h1>
+
+            <video controls width="640" height="360">
+                <source src="/videos/10 misterios sin resolver sobre la vida de Nikola Tesla.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gaia Latam. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
